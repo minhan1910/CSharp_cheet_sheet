@@ -41,7 +41,7 @@ Reference: [Type Object in .Net](https://learn.microsoft.com/en-us/dotnet/api/sy
 
 ### 1.2.2. How can I get Type object of Value Types (Primitive Type) ?
 
-**1. The ==first way== I can get the Type object based on the value through the **GetType** method.**
+**1. The first way I can get the Type object based on the value through the **GetType** method.**
 
 ```cs
 object[] values = { "word", true, 120, 6.6 };
@@ -53,10 +53,10 @@ foreach (var value in values)
 ```
 
 The Result:
-![Result](../Note_CS/img/Reflection/print_value_types_using_GetType_method.PNG)
+![Result](./img/Reflection/print_value_types_using_GetType_method.PNG)
 
 
-**2. The ==second way== I can get the Type object by using 'typeof' operator.**
+**2. The second way I can get the Type object by using 'typeof' operator.**
 
 ``` cs
 
@@ -69,10 +69,10 @@ foreach (var typeValue in typeValues)
 ```
 
 The result:
-![Result](../Note_CS/img/Reflection/get_Type_object_by_using_typeof_operator.PNG) 
+![Result](./img/Reflection/get_Type_object_by_using_typeof_operator.PNG) 
 
 **3. How can I get Type object of user-defined type?**
-**3.1 We can ==use the same way as Value Types== by using the **GetType** method.**
+**3.1 We can use the same way as Value Types by using the **GetType** method.**
 Assumed that I have a Customer class:
 
 ``` cs
@@ -112,7 +112,7 @@ I have separated by using the typeof operator and GetType method in user-defined
 # 2. Explain Keywords
 
 ## 2.1. Simple Explain about 'Metadata'
-- The ==main purpose== of the **metadata** is to know the information of the class, data members, inheritance, and data types, etc,... of the class.
+- The main purpose of the **metadata** is to know the information of the class, data members, inheritance, and data types, etc,... of the class.
 - Metadata is the file consists of the table and heap data structures.
 
 **References**:
