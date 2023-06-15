@@ -4,9 +4,9 @@ Table of Content
   - [1.1. Definition](#11-definition)
   - [1.2. Reflection with 'Type' object](#12-reflection-with-type-object)
     - [1.2.1. The type's Type object representation:](#121-the-types-type-object-representation)
-    - [How can I get Type object of Value Types (Primitive Type) ?](#how-can-i-get-type-object-of-value-types-primitive-type-)
+    - [1.2.2. How can I get Type object of Value Types (Primitive Type) ?](#122-how-can-i-get-type-object-of-value-types-primitive-type-)
 - [2. Explain Keywords](#2-explain-keywords)
-      - [2.0.0.1. Simple Explain about 'Metadata'](#2001-simple-explain-about-metadata)
+  - [2.1. Simple Explain about 'Metadata'](#21-simple-explain-about-metadata)
 
 
 # 1. Reflection in C#
@@ -39,7 +39,7 @@ using System.Reflection;
 Reference: [Type Object in .Net](https://learn.microsoft.com/en-us/dotnet/api/system.type?view=net-7.0)
 
 
-### How can I get Type object of Value Types (Primitive Type) ?
+### 1.2.2. How can I get Type object of Value Types (Primitive Type) ?
 
 **1. The ==first way== I can get the Type object based on the value through the **GetType** method.**
 
@@ -111,7 +111,7 @@ I have separated by using the typeof operator and GetType method in user-defined
 ---
 # 2. Explain Keywords
 
-#### 2.0.0.1. Simple Explain about 'Metadata'
+## 2.1. Simple Explain about 'Metadata'
 - The ==main purpose== of the **metadata** is to know the information of the class, data members, inheritance, and data types, etc,... of the class.
 - Metadata is the file consists of the table and heap data structures.
 
